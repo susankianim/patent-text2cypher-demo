@@ -1,0 +1,21 @@
+# Python dependencies and environments
+.env
+.venv
+env/
+venv/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.DS_Store
