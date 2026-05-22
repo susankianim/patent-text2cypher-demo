@@ -20,12 +20,6 @@ Relationships:
 - (:Patent)-[:USES_TECHNOLOGY]->(:Technology)
 
 Important rules:
-- Patent_ID from the CSV is stored as Patent.id.
-- Title from the CSV is stored as Patent.title.
-- Filed_On from the CSV is stored as Patent.filed_on.
-- OwnedBy from the CSV is stored as Organization.name.
-- Inventors from the CSV are stored as Inventor.name.
-- Technologies from the CSV are stored as Technology.name.
 - Do not invent labels, relationships, or properties.
 - Only generate read-only Cypher queries.
 - Use LIMIT 20 for list questions.
